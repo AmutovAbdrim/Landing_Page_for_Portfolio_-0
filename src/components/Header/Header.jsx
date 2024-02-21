@@ -1,16 +1,21 @@
 import styles from "./Header.module.scss";
-import bannerImage from "../../assets/img/header_banner.png";
+import headerLogo from "../../assets/img/Logo.png";
 
 const Header = (props) => {
   return (
-    <>
+    <div className={styles.headerWrapper}>
       <div className={styles.headerBanner}>
-        <img src={bannerImage} alt="Баннер" />
+        <div className={styles.headerLogo}>
+          <a href="#">
+            <img src={headerLogo} alt="Logo" />
+          </a>
+          <h1 className={styles.headerTitle}>
+            {" "}
+            Be sure you put your feet <span>in the right place</span>
+          </h1>
+        </div>
       </div>
-      <div className={styles.headerLogo}></div>
-      <div className={styles.headerTitle}>Be sure you put your feet 
-in the right place</div>
-    </>
+    </div>
   );
 };
 

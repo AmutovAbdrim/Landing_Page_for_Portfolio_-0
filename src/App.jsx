@@ -1,10 +1,14 @@
-import "./App.module.scss";
+import styles from "./App.module.scss";
 import Header from "./components/Header/Header.jsx";
+import Form from "./components/Form/Form.jsx";
 
 function App() {
   return (
     <>
-      <Header />
+      <div className={styles.header_block}>
+        <Header />
+      </div>
+      <Form />
     </>
   );
 }
