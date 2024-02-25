@@ -1,0 +1,35 @@
+.heading_block{
+    background-color: #5fc18b;
+    display:flex;
+    flex-direction: column;
+    align-items:center;justify-content: center;
+    width:100%;
+    padding-bottom: 150px;
+   
+    img{
+        margin-top: 85px;
+        filter: drop-shadow(5px 9px 5px rgba(0, 0, 0, 0.388));
+
+    }
+
+
+
+    h4{
+        color: #ffff;
+        font-size: 28px;
+        margin-top: 35px; 
+        font-weight:400;
+    }
+
+
+    p{
+        width:100%;
+        max-width: 660px;
+        margin-top: 45px;
+        margin-bottom: 10px;
+        color: #ffff;
+    }
+}
+
+
+

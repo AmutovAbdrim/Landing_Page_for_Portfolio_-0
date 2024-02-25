@@ -1,0 +1,25 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    background-color: #43a06d;
+    justify-content: center;
+    margin-top:-5px;
+
+
+    .footerText{
+        width: 320px;
+        margin: 16px;
+        color:#ffff;
+        font-weight: bold;
+
+
+        p{
+            &:before {
+                content: "@";
+            }
+
+        }
+    }
+
+   
+}

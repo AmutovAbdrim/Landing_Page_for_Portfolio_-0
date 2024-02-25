@@ -1,0 +1,64 @@
+.wrapperss{
+    position:relative;
+
+
+
+
+.map{
+
+    iframe{
+        width: 100vw;
+        height:700px;
+    }
+
+}
+
+ 
+
+
+.mapInfo{
+    position:absolute;
+    top:23%;
+    left:42%;
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height:430px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #ffffffd1;
+    border-radius: 100%;
+
+
+    input{
+        font-size: 11px;
+        padding: 10px 16px;
+        margin: 7px;
+        outline:none;
+    }
+
+    button {
+        background-color: #ffffff00;
+        cursor:pointer;
+        margin:27px;
+        border:none;
+
+  
+
+        &:active{
+            transform: scale(0.95);
+        }
+    }
+}
+
+
+
+
+
+
+
+}
