@@ -1,6 +1,8 @@
 .wrapperss{
     position:relative;
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 
 
@@ -18,12 +20,7 @@
 
 .mapInfo{
     position:absolute;
-    top:23%;
-    left:42%;
     z-index: 1;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     width: 430px;
     height:430px;
     display:flex;
